@@ -21,6 +21,7 @@ client
   })
   .then(() => {
     console.log('queries created');
-  });
+  })
+  .catch((err) => console.log(err));
 
-app.listen(3020);
+app.listen(4020);
